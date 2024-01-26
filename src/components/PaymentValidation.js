@@ -147,8 +147,8 @@ const PaymentValidation = () => {
                   {formErrors.cardName}
                 </p>
               </div>
-              <div className="flex justify-content-around">
-                <div className="layout-column mb-30">
+              <div className="flex justify-content-around debit-card-list">
+                <div className="layout-column mb-30 list-card">
                   <input
                     type="text"
                     name="expiryMonth"
@@ -161,7 +161,7 @@ const PaymentValidation = () => {
                     {formErrors.expiryMonth}
                   </p>
                 </div>
-                <div className="layout-column mb-30">
+                <div className="layout-column mb-30 list-card">
                   <input
                     type="text"
                     name="expiryYear"
@@ -174,7 +174,7 @@ const PaymentValidation = () => {
                     {formErrors.expiryYear}
                   </p>
                 </div>
-                <div className="layout-column mb-30">
+                <div className="layout-column mb-30 list-card">
                   <input
                     type="text"
                     name="cvv"
